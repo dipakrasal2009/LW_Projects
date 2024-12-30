@@ -1,0 +1,67 @@
+<div class="container">
+    <header>
+      <h1>Welcome To Docker Automation</h1>
+    </header>
+  
+    <div class="docker-controls">
+      <!-- Pull Image Section -->
+      <div class="control-box">
+        <h2>Pull Docker Image</h2>
+        <div class="input-group">
+          <input type="text" [(ngModel)]="imageName" placeholder="Enter image name">
+          <button (click)="pullImage()">Pull Image</button>
+        </div>
+      </div>
+  
+      <!-- Run Image Section -->
+      <div class="control-box">
+        <h2>Run Docker Container</h2>
+        <div class="input-group">
+          <input type="text" [(ngModel)]="containerName" placeholder="Enter container name">
+          <input type="text" [(ngModel)]="selectedImage" placeholder="Enter image name">
+          <button (click)="runContainer()">Run Container</button>
+        </div>
+      </div>
+  
+      <!-- Container Controls -->
+      <div class="control-box">
+        <h2>Container Controls</h2>
+        <div class="button-group">
+          <button (click)="startContainer(selectedImage)">Start</button>
+          <button (click)="stopContainer(selectedImage)">Stop</button>
+          <button (click)="removeContainer(selectedImage)">Remove</button>
+        </div>
+      </div>
+  
+      <!-- Container List -->
+      <div class="control-box container-list">
+        <h2>Docker Containers</h2>
+        <div class="list-container">
+          <table>
+            <thead>
+              <tr>
+                <th>Container ID</th>
+                <th>Name</th>
+                <th>Image</th>
+                <th>Status</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let container of containers">
+                <td>{{container.id}}</td>
+                <td>{{container.name}}</td>
+                <td>{{container.image}}</td>
+                <td>{{container.status}}</td>
+                <td>
+                  <button (click)="startContainer(container.id)">Start</button>
+                  <button (click)="stopContainer(container.id)">Stop</button>
+                  <button (click)="removeContainer(container.id)">Remove</button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
