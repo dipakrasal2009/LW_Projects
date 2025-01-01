@@ -58,13 +58,13 @@ def Docker_image_stop(containerID):
 
 @app.route("/list")
 def Docker_container_list():
-    cmd = "docker ps"
+    cmd = "docker ps --format '{{json .}}' | jq -s"
     output = subprocess.getstatusoutput(cmd)
 
     if output[0] == 0:
         return jsonify({
             "status": "success",
-            "containers": output[1]
+            "containers":output[1]
         })
     else:
         return jsonify({
@@ -115,5 +115,5 @@ def Docker_container_remove(containerID):
         }), 500
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=83)
+    app.run(host='0.0.0.0', port=8080)
     
