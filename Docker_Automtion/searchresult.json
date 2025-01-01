@@ -1,0 +1,177 @@
+[
+  {
+    "Description": "DEPRECATED; The official build of CentOS.",
+    "IsAutomated": "false",
+    "IsOfficial": "true",
+    "Name": "centos",
+    "StarCount": "7760"
+  },
+  {
+    "Description": "PostgreSQL is an advanced Object-Relational …",
+    "IsAutomated": "false",
+    "IsOfficial": "false",
+    "Name": "centos/postgresql-10-centos7",
+    "StarCount": "20"
+  },
+  {
+    "Description": "",
+    "IsAutomated": "false",
+    "IsOfficial": "false",
+    "Name": "centos/httpd-24-centos8",
+    "StarCount": "3"
+  },
+  {
+    "Description": "centos corpusops baseimage",
+    "IsAutomated": "false",
+    "IsOfficial": "false",
+    "Name": "corpusops/centos",
+    "StarCount": "0"
+  },
+  {
+    "Description": "systemd enabled base container. ",
+    "IsAutomated": "false",
+    "IsOfficial": "false",
+    "Name": "centos/systemd",
+    "StarCount": "115"
+  },
+  {
+    "Description": "",
+    "IsAutomated": "false",
+    "IsOfficial": "false",
+    "Name": "centos/redis-5-centos8",
+    "StarCount": "0"
+  },
+  {
+    "Description": "PostgreSQL is an advanced Object-Relational …",
+    "IsAutomated": "false",
+    "IsOfficial": "false",
+    "Name": "centos/postgresql-96-centos7",
+    "StarCount": "45"
+  },
+  {
+    "Description": "",
+    "IsAutomated": "false",
+    "IsOfficial": "false",
+    "Name": "centos/postgresql-10-centos8",
+    "StarCount": "0"
+  },
+  {
+    "Description": "",
+    "IsAutomated": "false",
+    "IsOfficial": "false",
+    "Name": "centos/mysql-80-centos8",
+    "StarCount": "0"
+  },
+  {
+    "Description": "MongoDB NoSQL database server ",
+    "IsAutomated": "false",
+    "IsOfficial": "false",
+    "Name": "centos/mongodb-36-centos7",
+    "StarCount": "12"
+  },
+  {
+    "Description": "",
+    "IsAutomated": "false",
+    "IsOfficial": "false",
+    "Name": "centos/mariadb-103-centos8",
+    "StarCount": "2"
+  },
+  {
+    "Description": "",
+    "IsAutomated": "false",
+    "IsOfficial": "false",
+    "Name": "centos/postgresql-12-centos8",
+    "StarCount": "0"
+  },
+  {
+    "Description": "Platform for running nginx 1.12 or building …",
+    "IsAutomated": "false",
+    "IsOfficial": "false",
+    "Name": "centos/nginx-112-centos7",
+    "StarCount": "16"
+  },
+  {
+    "Description": "MariaDB 10.1 SQL database server ",
+    "IsAutomated": "false",
+    "IsOfficial": "false",
+    "Name": "centos/mariadb-101-centos7",
+    "StarCount": "13"
+  },
+  {
+    "Description": "MySQL 5.6 SQL database server ",
+    "IsAutomated": "false",
+    "IsOfficial": "false",
+    "Name": "centos/mysql-56-centos7",
+    "StarCount": "23"
+  },
+  {
+    "Description": "MariaDB 10.2 SQL database server ",
+    "IsAutomated": "false",
+    "IsOfficial": "false",
+    "Name": "centos/mariadb-102-centos7",
+    "StarCount": "6"
+  },
+  {
+    "Description": "Redis in-memory data structure store, used a…",
+    "IsAutomated": "false",
+    "IsOfficial": "false",
+    "Name": "centos/redis-32-centos7",
+    "StarCount": "6"
+  },
+  {
+    "Description": "Platform for building and running Ruby 2.5 a…",
+    "IsAutomated": "false",
+    "IsOfficial": "false",
+    "Name": "centos/ruby-25-centos7",
+    "StarCount": "3"
+  },
+  {
+    "Description": "MySQL 5.7 SQL database server ",
+    "IsAutomated": "false",
+    "IsOfficial": "false",
+    "Name": "centos/mysql-57-centos7",
+    "StarCount": "95"
+  },
+  {
+    "Description": "Platform for building and running PHP 5.6 ap…",
+    "IsAutomated": "false",
+    "IsOfficial": "false",
+    "Name": "centos/php-56-centos7",
+    "StarCount": "34"
+  },
+  {
+    "Description": "Platform for running Apache httpd 2.4 or bui…",
+    "IsAutomated": "false",
+    "IsOfficial": "false",
+    "Name": "centos/httpd-24-centos7",
+    "StarCount": "46"
+  },
+  {
+    "Description": "Platform for running nginx 1.8 or building n…",
+    "IsAutomated": "false",
+    "IsOfficial": "false",
+    "Name": "centos/nginx-18-centos7",
+    "StarCount": "14"
+  },
+  {
+    "Description": "Redis in-memory data structure store, used a…",
+    "IsAutomated": "false",
+    "IsOfficial": "false",
+    "Name": "centos/redis-5-centos7",
+    "StarCount": "0"
+  },
+  {
+    "Description": "Platform for building and running Python 2.7…",
+    "IsAutomated": "false",
+    "IsOfficial": "false",
+    "Name": "centos/python-27-centos7",
+    "StarCount": "17"
+  },
+  {
+    "Description": "Platform for building and running Python 3.5…",
+    "IsAutomated": "false",
+    "IsOfficial": "false",
+    "Name": "centos/python-35-centos7",
+    "StarCount": "39"
+  }
+]
