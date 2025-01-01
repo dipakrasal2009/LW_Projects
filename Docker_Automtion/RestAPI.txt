@@ -1,0 +1,13 @@
+5 methods of rest API
+
+1 GET  :  get method is use to get the input or records from the server
+
+2 POST : post method is use to send the data and create the new record to the server
+
+3 PUT  : when we want to update an existing record then the put method is used
+
+4 PATCH : like the put method. patch is also use to send the data to update the existig record 
+		but the important diffrence of PUT and PATCH is PATCH only applies the partial modification 
+		insted of replacing the whole record
+
+5 DELETE : delete method is use to delete the record from the server

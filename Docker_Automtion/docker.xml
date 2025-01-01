@@ -1,0 +1,6 @@
+CONTAINER ID   IMAGE          COMMAND                  CREATED          STATUS          PORTS     NAMES
+7c622ae08970   centos         "/bin/bash"              6 minutes ago    Up 6 minutes              naughty_blackwell
+241980024c1c   centos         "/bin/bash"              14 minutes ago   Up 14 minutes             objective_elgamal
+012c61c885fc   centos         "/bin/bash"              21 minutes ago   Up 21 minutes             romantic_gauss
+3334ffaeec75   ubuntu         "/bin/bash"              5 hours ago      Up 5 hours                dipakos3
+fa2b02fbd713   nginx:latest   "/docker-entrypoint.…"   5 hours ago      Up 5 hours      80/tcp    myapp111
