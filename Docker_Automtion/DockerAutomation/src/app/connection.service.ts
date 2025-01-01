@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class ConnectionService {
-  private apiUrl = 'http://192.168.1.104:83'; // Assuming you have a backend server running on port 3000
+  private apiUrl = 'http://192.168.1.104:8080/pull'; // Assuming you have a backend server running on port 3000
 
   constructor(private http:HttpClient) {}
   // Get list of all containers
@@ -15,10 +15,31 @@ export class ConnectionService {
   }
 
   // Pull a Docker image
-  pullImage(imageName: string): Observable<any> {
-    console.log(imageName)
-    return this.http.post(`${this.apiUrl}/pull/`, { imageName });
+  // pullImage(imageName: string): Observable<any> {
+  //   console.log(imageName)
+  //   return this.http.post(`${this.apiUrl}/pull`, { imageName });
+  // }
+
+
+  pullImage(imageName: string):Observable<any> {
+    const headers = new HttpHeaders({'Contenr-Type':'application/json'});
+    const body = {imageName : imageName};
+    return this.http.post(this.apiUrl,body,{headers:headers});
   }
+
+
+  // pullImage(imageName: string): Observable<any> {
+  //   const headers = new HttpHeaders({ 'Content-Type': 'application/json' });
+  //   const body = { imageName: imageName };
+  //   return this.http.post(this.apiUrl, body, { headers: headers });
+
+
+
+
+
+
+
+
 
   // Run a new container
   runContainer(containerName: string, imageName: string): Observable<any> {
